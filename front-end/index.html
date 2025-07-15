@@ -1,11 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
+    
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login Page</title>
 </head>
+
 <body>
-    
+  <div class="container">
+    <div class="form-wrapper">
+      
+      <!-- Title or header -->
+      <h2>Login</h2> <!-- Or Sign Up -->
+
+      <!-- Form -->
+      <form id="login-form">
+        <!-- Email input -->
+        <div class="input-group">
+          <label for="email">Email</label>
+          <input type="email" id="email" required placeholder="Enter your email" />
+        </div>
+
+        <!-- Password input -->
+        <div class="input-group">
+          <label for="password">Password</label>
+          <input type="password" id="password" required placeholder="Enter your password" />
+        </div>
+
+        <!-- Optional: Confirm password (for Sign Up) -->
+        <div class="input-group">
+          <label for="confirm-password">Confirm Password</label>
+          <input type="password" id="confirm-password" required placeholder="Confirm password" />
+        </div>
+
+        <!-- Submit button -->
+        <button type="submit">Log In</button>
+
+        <!-- Optional: Link to switch to Sign Up -->
+        <p>
+          Don't have an account? <a href="signup.html">Sign Up</a>
+        </p>
+      </form>
+    </div>
+  </div>
 </body>
+
 </html>

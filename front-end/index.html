@@ -9,15 +9,15 @@
 </head>
 <body>
   <div class="wrapper">
-    <form action="">
+    <form onsubmit="login(event)">
       <h1>Login</h1>
       <div class="input-box">
-        <input type="text" placeholder="Username" required>
+        <input id="username" type="text" placeholder="Username" required>
         <i class="bx bxs-user"></i>
       </div>
 
       <div class="input-box">
-        <input type="password" placeholder="Password" required>
+        <input id="password" type="password" placeholder="Password" required>
         <i class="bx bxs-lock-alt"></i>
       </div>
 
@@ -33,5 +33,6 @@
       </div>
     </form>
   </div>
+  <script src="index.js"></script>
 </body>
 </html>

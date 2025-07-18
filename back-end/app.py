@@ -4,7 +4,7 @@ import json
 import os
 
 app = Flask(__name__)
-CORS(app)  # ← Add this line
+CORS(app)
 USER_FILE = 'users.json'
 
 def load_users():

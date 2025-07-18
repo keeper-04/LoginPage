@@ -21,7 +21,7 @@ async function register(event) {
     alert(data.message);
 
     if (response.ok) {
-      window.location.href = "index.html"; // Redirect to login on success
+      window.location.href = "login.html"; // Redirect to login on success
     }
   } catch (err) {
     alert("Error connecting to server.");
